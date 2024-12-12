@@ -1814,4 +1814,150 @@
     <axis xyz="0 0 0" />
   </joint>
 
+  <!-- Left Hand Fingertips -->
+  <link name="l_f_link1_tip">
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
+    </inertial>
+    <visual>
+      <origin xyz="0.015 -0.004 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+      <material name="">
+        <color rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="l_f_joint1_tip" type="fixed">
+    <origin xyz="0.02 0 0" rpy="0 0 0" />
+    <parent link="l_f_link1_4" />
+    <child link="l_f_link1_tip" />
+  </joint>
+
+  <link name="l_f_link2_tip">
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
+    </inertial>
+    <visual>
+      <origin xyz="0.015 -0.004 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+      <material name="">
+        <color rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="l_f_joint2_tip" type="fixed">
+    <origin xyz="0.02 0 0" rpy="0 0 0" />
+    <parent link="l_f_link2_4" />
+    <child link="l_f_link2_tip" />
+  </joint>
+
+  <link name="l_f_link3_tip">
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
+    </inertial>
+    <visual>
+      <origin xyz="0.015 -0.004 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+      <material name="">
+        <color rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="l_f_joint3_tip" type="fixed">
+    <origin xyz="0.02 0 0" rpy="0 0 0" />
+    <parent link="l_f_link3_4" />
+    <child link="l_f_link3_tip" />
+  </joint>
+
+  <link name="l_f_link4_tip">
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
+    </inertial>
+    <visual>
+      <origin xyz="0.015 -0.004 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+      <material name="">
+        <color rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="l_f_joint4_tip" type="fixed">
+    <origin xyz="0.02 0 0" rpy="0 0 0" />
+    <parent link="l_f_link4_4" />
+    <child link="l_f_link4_tip" />
+  </joint>
+
+  <link name="l_f_link5_tip">
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
+    </inertial>
+    <visual>
+      <origin xyz="0.015 -0.004 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+      <material name="">
+        <color rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.002" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="l_f_joint5_tip" type="fixed">
+    <origin xyz="0.02 0 0" rpy="0 0 0" />
+    <parent link="l_f_link5_4" />
+    <child link="l_f_link5_tip" />
+  </joint>
+
 </robot>
