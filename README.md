@@ -16,6 +16,16 @@ simulate urdf/dexhand021_right.urdf
 
 Note: After launching the simulator, hit the 'Pause' button first, then 'Reset' to properly visualize the model in its initial configuration.
 
+## Models
+
+### Full Model
+
+The full model provides high-fidelity mesh files suitable for rendering and visualization. It includes detailed geometry for all components of the hand.
+
+### Simplified Model
+
+A simplified version optimized for simulation is also provided. This model reduces geometric complexity while maintaining kinematic accuracy, making it more efficient for physics simulations. Solidworks project files for these simplified models are included in the repository.
+
 ## Model Conventions
 
 ### Naming Convention
@@ -31,42 +41,23 @@ The model follows a systematic naming convention for links and joints:
 
 - Thumb Rotation: `*_1_1`
 - Finger Spread: `[2345]_1` (for index, middle, ring, and pinky fingers)
-- Proximal Joints: `[12345]_2` (for all fingers including thumb)
-- Distal Joints: `[12345]_[34]` (for all fingers)
-  - Note: While distal joints are mechanically coupled in the physical system, this coupling is not reflected in the URDF model
+- Metacarpophalangeal (MCP) Joints: `[12345]_2`
+- Proximal & Distal Joints: `[12345]_[34]` (for all fingers)
+  - Note: While proximal and distal joints are mechanically coupled in the physical system, this coupling is not reflected in the URDF model
 
 ### Frame Convention
 
 The model primarily follows the Denavit-Hartenberg (DH) convention for frame assignments:
 
 #### Base Frame
+
 - Origin: Located at the wrist
 - Z-axis: Points toward fingertips
 - Thumb Orientation: Inclines toward negative X-axis for both hands
 
-## Utility Scripts
+## Additional Resources
 
-The repository includes several Python utilities in the `utils/` directory for checking and modifying URDF models:
-
-### analyze_urdf.py
-Analyzes URDF files for physical validity and consistency:
-```bash
-python utils/analyze_urdf.py urdf/dexhand021_left.urdf
-```
-
-### update_mesh_paths.py
-Updates mesh file paths in URDF files:
-```bash
-python utils/update_mesh_paths.py urdf/dexhand021_left.urdf --prefix ../meshes
-```
-
-### rename_urdf.py
-Renames links and joints in URDF files:
-```bash
-python utils/rename_urdf.py urdf/dexhand021_left.urdf meshes/
-```
-
-All utility scripts support a `--dry-run` option to preview changes without modifying files.
+The repository includes utility scripts in the utils/ directory for URDF file processing and analysis. These tools can help with tasks such as updating mesh paths and analyzing model properties.
 
 ## Notes for Users
 

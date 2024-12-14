@@ -2,7 +2,7 @@
 <robot name="dexhand021_right">
 
   <mujoco>
-    <compiler meshdir="../meshes" balanceinertia="true" discardvisual="false" />
+    <compiler meshdir="../meshes/dexhand021" balanceinertia="true" discardvisual="false" />
   </mujoco>
 
   <link name="right_hand_base" />
@@ -10,7 +10,7 @@
   <joint name="right_base_to_hand" type="fixed">
     <parent link="right_hand_base" />
     <child link="r_p_link0" />
-    <origin xyz="0. 0. -0.17" rpy="0 0 0" />
+    <origin xyz="0. 0. -0.17" rpy="0 0 -1.57" />
   </joint>
 
   <link name="r_p_link0">
