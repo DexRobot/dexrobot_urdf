@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to DexRobot URDF Models’s documentation! &mdash; dexrobot_urdf 0.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=01f34227"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            dexrobot_urdf
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to DexRobot URDF Models’s documentation!</a><ul>
+<li><a class="reference internal" href="#quickstart">Quickstart</a></li>
+<li><a class="reference internal" href="#models">Models</a><ul>
+<li><a class="reference internal" href="#full-model">Full Model</a></li>
+<li><a class="reference internal" href="#simplified-model">Simplified Model</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#model-conventions">Model Conventions</a><ul>
+<li><a class="reference internal" href="#naming-convention">Naming Convention</a><ul>
+<li><a class="reference internal" href="#component-numbering">Component Numbering</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#frame-convention">Frame Convention</a><ul>
+<li><a class="reference internal" href="#base-frame">Base Frame</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#additional-resources">Additional Resources</a></li>
+<li><a class="reference internal" href="#notes-for-users">Notes for Users</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">dexrobot_urdf</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to DexRobot URDF Models’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-dexrobot-urdf-models-s-documentation">
+<h1>Welcome to DexRobot URDF Models’s documentation!<a class="headerlink" href="#welcome-to-dexrobot-urdf-models-s-documentation" title="Link to this heading"></a></h1>
+<p>This repository contains URDF models for a dexterous robotic hand
+system, including both left and right hand configurations. The models
+are compatible with standard URDF toolchains and have been tested with
+MuJoCo.</p>
+<section id="quickstart">
+<h2>Quickstart<a class="headerlink" href="#quickstart" title="Link to this heading"></a></h2>
+<p>The URDF models can be visualized using MuJoCo’s <code class="docutils literal notranslate"><span class="pre">simulate</span></code> tool:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># For left hand</span>
+simulate<span class="w"> </span>urdf/dexhand021_left.urdf
+
+<span class="c1"># For right hand</span>
+simulate<span class="w"> </span>urdf/dexhand021_right.urdf
+</pre></div>
+</div>
+<p>Note: After launching the simulator, hit the ‘Pause’ button first, then
+‘Reset’ to properly visualize the model in its initial configuration.</p>
+</section>
+<section id="models">
+<h2>Models<a class="headerlink" href="#models" title="Link to this heading"></a></h2>
+<section id="full-model">
+<h3>Full Model<a class="headerlink" href="#full-model" title="Link to this heading"></a></h3>
+<p>The full model provides high-fidelity mesh files suitable for rendering
+and visualization. It includes detailed geometry for all components of
+the hand.</p>
+</section>
+<section id="simplified-model">
+<h3>Simplified Model<a class="headerlink" href="#simplified-model" title="Link to this heading"></a></h3>
+<p>A simplified version optimized for simulation is also provided. This
+model reduces geometric complexity while maintaining kinematic accuracy,
+making it more efficient for physics simulations. Solidworks project
+files for these simplified models are included in the repository.</p>
+</section>
+</section>
+<section id="model-conventions">
+<h2>Model Conventions<a class="headerlink" href="#model-conventions" title="Link to this heading"></a></h2>
+<section id="naming-convention">
+<h3>Naming Convention<a class="headerlink" href="#naming-convention" title="Link to this heading"></a></h3>
+<p>The model follows a systematic naming convention for links and joints:</p>
+<ul class="simple">
+<li><p>Base Format: <code class="docutils literal notranslate"><span class="pre">[lr]_[type]_[component]</span></code></p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">[lr]</span></code>: ‘l’ for left hand, ‘r’ for right hand</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[type]</span></code>: ‘p’ for palm components, ‘f’ for finger components</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[component]</span></code>: specific component identifier</p></li>
+</ul>
+</li>
+</ul>
+<section id="component-numbering">
+<h4>Component Numbering<a class="headerlink" href="#component-numbering" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Thumb Rotation: <code class="docutils literal notranslate"><span class="pre">*_1_1</span></code></p></li>
+<li><p>Finger Spread: <code class="docutils literal notranslate"><span class="pre">[2345]_1</span></code> (for index, middle, ring, and pinky
+fingers)</p></li>
+<li><p>Metacarpophalangeal (MCP) Joints: <code class="docutils literal notranslate"><span class="pre">[12345]_2</span></code></p></li>
+<li><p>Proximal &amp; Distal Joints: <code class="docutils literal notranslate"><span class="pre">[12345]_[34]</span></code> (for all fingers)</p>
+<ul>
+<li><p>Note: While proximal and distal joints are mechanically coupled in
+the physical system, this coupling is not reflected in the URDF
+model</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="frame-convention">
+<h3>Frame Convention<a class="headerlink" href="#frame-convention" title="Link to this heading"></a></h3>
+<p>The model primarily follows the Denavit-Hartenberg (DH) convention for
+frame assignments:</p>
+<section id="base-frame">
+<h4>Base Frame<a class="headerlink" href="#base-frame" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Origin: Located at the wrist</p></li>
+<li><p>Z-axis: Points toward fingertips</p></li>
+<li><p>Thumb Orientation: Inclines toward negative X-axis for both hands</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="additional-resources">
+<h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Link to this heading"></a></h2>
+<p>The repository includes utility scripts in the utils/ directory for URDF
+file processing and analysis. These tools can help with tasks such as
+updating mesh paths and analyzing model properties.</p>
+</section>
+<section id="notes-for-users">
+<h2>Notes for Users<a class="headerlink" href="#notes-for-users" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Mesh files are referenced relative to the URDF location using
+<code class="docutils literal notranslate"><span class="pre">../meshes/</span></code></p></li>
+<li><p>The models are compatible with major robotics simulation environments
+that support URDF</p></li>
+<li><p>While the URDF models don’t enforce joint coupling, users can
+implement this in their control software</p></li>
+<li><p>The utility scripts can be modified as needed to accommodate specific
+requirements</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, DexRobot.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
