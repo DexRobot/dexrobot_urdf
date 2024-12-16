@@ -6,6 +6,10 @@ system, including both left and right hand configurations. The models
 are compatible with standard URDF toolchains and have been tested with
 MuJoCo.
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+
 Quickstart
 ----------
 
