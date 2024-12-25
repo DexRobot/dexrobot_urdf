@@ -1,1146 +1,633 @@
-<robot
-  name="dexhand021_left_simplified">
+<robot name="dexhand021_left_simplified">
 
   <mujoco>
     <compiler meshdir="../meshes/dexhand021_simplified" balanceinertia="true" discardvisual="false" />
   </mujoco>
 
-  <link
-    name="left_hand_base">
+  <link name="left_hand_base">
     <inertial>
-      <origin
-        xyz="-0.015115 4.3384E-05 0.09592"
-        rpy="0 0 0" />
-      <mass value="0.37509" />
-      <inertia ixx="0.0004174" ixy="3.0809E-06" ixz="2.7137E-05" iyy="0.00056243" iyz="4.0143E-05"
-        izz="0.00021494" />
+      <origin xyz="-0.001433944695677107 -0.0010853364114898271 0.0932527558249519" rpy="0 0 0" />
+      <mass value="0.8839820474170381" />
+      <inertia ixx="2.09795443422357e-06" ixy="2.6881563703530053e-08" ixz="6.413855181461991e-08" iyy="1.6119578275944253e-06" iyz="9.370189502077133e-09" izz="8.995988700283038e-07" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/left_hand_base.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/left_hand_base.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.75294 0.75294 0.75294 1" />
+      <material name="">
+        <color rgba="0.75294 0.75294 0.75294 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/left_hand_base.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/left_hand_base.STL" />
       </geometry>
     </collision>
   </link>
-  <link
-    name="l_f_link1_1">
+  <link name="l_f_link1_1">
     <inertial>
-      <origin
-        xyz="0.00198600910498237 -0.000349747755566558 -0.0134844142067587"
-        rpy="0 0 0" />
-      <mass
-        value="0.0055493" />
-      <inertia
-        ixx="4.7024288531666E-07"
-        ixy="4.454983699583E-09"
-        ixz="-4.16334875297436E-08"
-        iyy="5.5177651806112E-07"
-        iyz="1.08245533973591E-08"
-        izz="2.56258780482512E-07" />
+      <origin xyz="0.001980573911977284 -0.0003519916046890215 -0.013451253689896279" rpy="0 0 0" />
+      <mass value="0.004409652627263485" />
+      <inertia ixx="4.673103357121796e-10" ixy="4.470691365043646e-12" ixz="-4.078165731716411e-11" iyy="5.488960382446679e-10" iyz="1.074673808148834e-11" izz="2.5584978307135863e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_1.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_1.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint1_1"
-    type="revolute">
-    <origin
-      xyz="0.032783 -0.023781 0.11211"
-      rpy="-0.26842 -0.15197 -1.3168" />
-    <parent
-      link="left_hand_base" />
-    <child
-      link="l_f_link1_1" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint1_1" type="revolute">
+    <origin xyz="0.032783 -0.023781 0.11211" rpy="-0.26842 -0.15197 -1.3168" />
+    <parent link="left_hand_base" />
+    <child link="l_f_link1_1" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="2.2" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.5" />
   </joint>
-  <link
-    name="l_f_link1_2">
+  <link name="l_f_link1_2">
     <inertial>
-      <origin
-        xyz="0.0214366856889457 0.000173154923003682 0.001298307943995"
-        rpy="0 0 0" />
-      <mass
-        value="0.0124624337931872" />
-      <inertia
-        ixx="7.78577931986097E-07"
-        ixy="5.44832818046826E-08"
-        ixz="1.5891863798302E-09"
-        iyy="2.07494140526537E-06"
-        iyz="3.38295093879597E-10"
-        izz="2.14499509195747E-06" />
+      <origin xyz="0.02143503770038841 0.00017993837719091317 0.0012981954412922612" rpy="0 0 0" />
+      <mass value="0.009951630175659748" />
+      <inertia ixx="7.760650379083414e-10" ixy="5.427072133311471e-11" ixz="1.5290052103370445e-12" iyy="2.067086168946858e-09" iyz="3.482551640695207e-13" izz="2.1373850788580625e-09" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_2.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_2.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint1_2"
-    type="revolute">
-    <origin
-      xyz="0.0083307 0 0"
-      rpy="1.5708 0 0" />
-    <parent
-      link="l_f_link1_1" />
-    <child
-      link="l_f_link1_2" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint1_2" type="revolute">
+    <origin xyz="0.0083307 0 0" rpy="1.5708 0 0" />
+    <parent link="l_f_link1_1" />
+    <child link="l_f_link1_2" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link1_3">
+  <link name="l_f_link1_3">
     <inertial>
-      <origin
-        xyz="0.0134548296294729 -0.000702414639214777 0.00129279825600215"
-        rpy="0 0 0" />
-      <mass
-        value="0.00572598940663931" />
-      <inertia
-        ixx="2.55427275443236E-07"
-        ixy="1.11119279570581E-08"
-        ixz="2.31215404124848E-11"
-        iyy="4.46844563002543E-07"
-        iyz="-8.01009905021208E-12"
-        izz="4.76544917652253E-07" />
+      <origin xyz="0.01345865179668865 -0.0006994150593582686 0.0012931294602007472" rpy="0 0 0" />
+      <mass value="0.004572753893586383" />
+      <inertia ixx="2.5463017988958933e-10" ixy="1.1144061820998011e-11" ixz="5.1174127730317246e-14" iyy="4.44988993915045e-10" iyz="6.442437907835902e-15" izz="4.746572381428149e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_3.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_3.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint1_3"
-    type="revolute">
-    <origin
-      xyz="0.043 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link1_2" />
-    <child
-      link="l_f_link1_3" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint1_3" type="revolute">
+    <origin xyz="0.043 0 0" rpy="0 0 0" />
+    <parent link="l_f_link1_2" />
+    <child link="l_f_link1_3" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link1_4">
+  <link name="l_f_link1_4">
     <inertial>
-      <origin
-        xyz="-0.106710222868991 -0.00118159216051819 0.0358277359301637"
-        rpy="0 0 0" />
-      <mass
-        value="0.00511359728172243" />
-      <inertia
-        ixx="0.000000173095008951806"
-        ixy="-0.0000000202313478926414"
-        ixz="-7.05472104546055E-09"
-        iyy="0.0000000694149825004719"
-        iyz="-0.0000000270292828807616"
-        izz="0.000000211927243947017" />
+      <origin xyz="0.016260909769710546 -0.0036964901321542014 0.0012930819349579075" rpy="0 0 0" />
+      <mass value="0.0061582385243810385" />
+      <inertia ixx="4.011086883379703e-10" ixy="1.5555987284144313e-10" ixz="-8.579491915362132e-14" iyy="9.263594296293365e-10" iyz="2.0035549064949704e-14" izz="9.186938120322902e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_4.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link1_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link1_4.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint1_4"
-    type="revolute">
-    <origin
-      xyz="0.025 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link1_3" />
-    <child
-      link="l_f_link1_4" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint1_4" type="revolute">
+    <origin xyz="0.025 0 0" rpy="0 0 0" />
+    <parent link="l_f_link1_3" />
+    <child link="l_f_link1_4" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link2_1">
+  <link name="l_f_link2_1">
     <inertial>
-      <origin
-        xyz="0.00700303228678785 1.36491595803534E-10 -0.000969320716374398"
-        rpy="0 0 0" />
-      <mass
-        value="0.00512730147699983" />
-      <inertia
-        ixx="2.7295663921666E-07"
-        ixy="-1.22250330409963E-13"
-        ixz="3.39749457195655E-08"
-        iyy="3.98794075399136E-07"
-        iyz="-7.13636872604662E-13"
-        izz="3.23508501141432E-07" />
+      <origin xyz="0.007002116442824139 1.0853722106649e-07 -0.0009685598787375309" rpy="0 0 0" />
+      <mass value="0.004097010287465458" />
+      <inertia ixx="2.7235763206490473e-10" ixy="3.105811960100163e-15" ixz="3.3925982165646924e-11" iyy="3.9765277905771317e-10" iyz="-1.3573950510005533e-15" izz="3.2255104577090704e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_1.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      <material name="">
+        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_1.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint2_1"
-    type="revolute">
-    <origin
-      xyz="0.006966 -0.034912 0.1644"
-      rpy="3.1416 -1.5708 0" />
-    <parent
-      link="left_hand_base" />
-    <child
-      link="l_f_link2_1" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint2_1" type="revolute">
+    <origin xyz="0.006966 -0.034912 0.1644" rpy="3.1416 -1.5708 0" />
+    <parent link="left_hand_base" />
+    <child link="l_f_link2_1" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="0.6" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link2_2">
+  <link name="l_f_link2_2">
     <inertial>
-      <origin
-        xyz="0.0211604709123078 -0.000591445999095427 2.29149645292193E-06"
-        rpy="0 0 0" />
-      <mass
-        value="0.011802504617909" />
-      <inertia
-        ixx="6.95572718028951E-07"
-        ixy="3.06110038221272E-08"
-        ixz="1.7898851370774E-09"
-        iyy="2.07663070640492E-06"
-        iyz="1.12335230360223E-10"
-        izz="2.05914603414923E-06" />
+      <origin xyz="0.021162223969675573 -0.0005903778748454669 2.726223716673e-06" rpy="0 0 0" />
+      <mass value="0.009428301114189446" />
+      <inertia ixx="6.935853771803929e-10" ixy="3.0680508373708e-11" ixz="1.7881750565536037e-12" iyy="2.0715784629560695e-09" iyz="1.5938757167836154e-13" izz="2.0541639196537608e-09" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_2.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_2.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint2_2"
-    type="revolute">
-    <origin
-      xyz="0.017 0 0"
-      rpy="1.5708 0 0" />
-    <parent
-      link="l_f_link2_1" />
-    <child
-      link="l_f_link2_2" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint2_2" type="revolute">
+    <origin xyz="0.017 0 0" rpy="1.5708 0 0" />
+    <parent link="l_f_link2_1" />
+    <child link="l_f_link2_2" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link2_3">
+  <link name="l_f_link2_3">
     <inertial>
-      <origin
-        xyz="0.0134548153053672 -0.000702381707239779 3.81155380702047E-07"
-        rpy="0 0 0" />
-      <mass
-        value="0.0057259887397435" />
-      <inertia
-        ixx="2.55428310123141E-07"
-        ixy="1.1111381574676E-08"
-        ixz="2.25321389711504E-11"
-        iyy="4.46843623646942E-07"
-        iyz="-6.58573110647318E-12"
-        izz="4.7654539911187E-07" />
+      <origin xyz="0.01345865180416245 -0.0006994150597509925 7.128934054612281e-07" rpy="0 0 0" />
+      <mass value="0.004572753788929435" />
+      <inertia ixx="2.5463016843741603e-10" ixy="1.1144061675067492e-11" ixz="5.117217831792685e-14" iyy="4.449889793273617e-10" iyz="6.4425181583782644e-15" izz="4.746572278479283e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_3.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_3.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint2_3"
-    type="revolute">
-    <origin
-      xyz="0.043 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link2_2" />
-    <child
-      link="l_f_link2_3" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint2_3" type="revolute">
+    <origin xyz="0.043 0 0" rpy="0 0 0" />
+    <parent link="l_f_link2_2" />
+    <child link="l_f_link2_3" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link2_4">
+  <link name="l_f_link2_4">
     <inertial>
-      <origin
-        xyz="-0.13362728668981 -0.0157854249828589 0.0326660778157223"
-        rpy="0 0 0" />
-      <mass
-        value="0.00511359728172243" />
-      <inertia
-        ixx="0.000000061680506465688"
-        ixy="-0.0000000135176421458247"
-        ixz="9.49130763997119E-10"
-        iyy="0.000000214948104653407"
-        iyz="6.42111861959019E-09"
-        izz="0.0000001778086242802" />
+      <origin xyz="0.01626090969844342 -0.0036964901152251304 7.154849544654132e-07" rpy="0 0 0" />
+      <mass value="0.00615823855422499" />
+      <inertia ixx="4.011081796762234e-10" ixy="1.5555987405558141e-10" ixz="-8.68132658715712e-14" iyy="9.263589275269153e-10" iyz="1.8604883999784223e-14" izz="9.186938200391148e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_4.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link2_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link2_4.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint2_4"
-    type="revolute">
-    <origin
-      xyz="0.025 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link2_3" />
-    <child
-      link="l_f_link2_4" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint2_4" type="revolute">
+    <origin xyz="0.025 0 0" rpy="0 0 0" />
+    <parent link="l_f_link2_3" />
+    <child link="l_f_link2_4" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link3_1">
+  <link name="l_f_link3_1">
     <inertial>
-      <origin
-        xyz="0.00700303602704492 1.36491595803534E-10 -0.000969317075562619"
-        rpy="0 0 0" />
-      <mass
-        value="0.00512729840681515" />
-      <inertia
-        ixx="2.72956517525723E-07"
-        ixy="-1.22250325596393E-13"
-        ixz="3.39750623257501E-08"
-        iyy="3.98793842096755E-07"
-        iyz="-7.13636871485365E-13"
-        izz="3.23508373161817E-07" />
+      <origin xyz="0.00700211979781371 1.0746859203037946e-07 -0.0009685567474136043" rpy="0 0 0" />
+      <mass value="0.004097008090990198" />
+      <inertia ixx="2.723575329673652e-10" ixy="3.0707908274757897e-15" ixz="3.3926082584924045e-11" iyy="3.976525779519745e-10" iyz="-1.4016365237660745e-15" izz="3.225509300539399e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_1.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      <material name="">
+        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_1.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint3_1"
-    type="revolute">
-    <origin
-      xyz="0.006966 -0.010612 0.1734"
-      rpy="3.1416 -1.5708 0" />
-    <parent
-      link="left_hand_base" />
-    <child
-      link="l_f_link3_1" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint3_1" type="revolute">
+    <origin xyz="0.006966 -0.010612 0.1734" rpy="3.1416 -1.5708 0" />
+    <parent link="left_hand_base" />
+    <child link="l_f_link3_1" />
+    <axis xyz="0 0 1" />
     <limit lower="-0.001" upper="0.001" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link3_2">
+  <link name="l_f_link3_2">
     <inertial>
-      <origin
-        xyz="0.0211604709123072 -0.000591445999095455 2.29149645325499E-06"
-        rpy="0 0 0" />
-      <mass
-        value="0.011802504617909" />
-      <inertia
-        ixx="6.95572718028953E-07"
-        ixy="3.06110038221223E-08"
-        ixz="1.78988513706649E-09"
-        iyy="2.07663070640493E-06"
-        iyz="1.12335230358326E-10"
-        izz="2.05914603414924E-06" />
+      <origin xyz="0.021162223969675573 -0.0005903778748454669 2.7262237166728596e-06" rpy="0 0 0" />
+      <mass value="0.009428301114189446" />
+      <inertia ixx="6.93585377180393e-10" ixy="3.068050837370795e-11" ixz="1.7881750565535686e-12" iyy="2.0715784629560695e-09" iyz="1.5938757167836598e-13" izz="2.0541639196537608e-09" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_2.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_2.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint3_2"
-    type="revolute">
-    <origin
-      xyz="0.017 0 0"
-      rpy="1.5708 0 0" />
-    <parent
-      link="l_f_link3_1" />
-    <child
-      link="l_f_link3_2" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint3_2" type="revolute">
+    <origin xyz="0.017 0 0" rpy="1.5708 0 0" />
+    <parent link="l_f_link3_1" />
+    <child link="l_f_link3_2" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link3_3">
+  <link name="l_f_link3_3">
     <inertial>
-      <origin
-        xyz="0.0134548153053674 -0.000702381707239831 3.8115538081307E-07"
-        rpy="0 0 0" />
-      <mass
-        value="0.00572598873974363" />
-      <inertia
-        ixx="2.55428310123148E-07"
-        ixy="1.11113815746774E-08"
-        ixz="2.25321389705957E-11"
-        iyy="4.46843623646947E-07"
-        iyz="-6.58573110714898E-12"
-        izz="4.76545399111875E-07" />
+      <origin xyz="0.013458651804082164 -0.0006994150594313945 7.128935894338023e-07" rpy="0 0 0" />
+      <mass value="0.004572753789108405" />
+      <inertia ixx="2.546301684652061e-10" ixy="1.114406167828454e-11" ixz="5.117217957884416e-14" iyy="4.4498897934100706e-10" iyz="6.442508465568869e-15" izz="4.746572278648683e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_3.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_3.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint3_3"
-    type="revolute">
-    <origin
-      xyz="0.043 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link3_2" />
-    <child
-      link="l_f_link3_3" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint3_3" type="revolute">
+    <origin xyz="0.043 0 0" rpy="0 0 0" />
+    <parent link="l_f_link3_2" />
+    <child link="l_f_link3_3" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link3_4">
+  <link name="l_f_link3_4">
     <inertial>
-      <origin
-        xyz="-0.1426272866905 -0.0157854249835522 0.00836607781572185"
-        rpy="0 0 0" />
-      <mass
-        value="0.00511359728172243" />
-      <inertia
-        ixx="0.0000000616805064659985"
-        ixy="-0.0000000135176421475851"
-        ixz="9.49130763923698E-10"
-        iyy="0.000000214948104653096"
-        iyz="6.42111861960076E-09"
-        izz="0.0000001778086242802" />
+      <origin xyz="0.01626090969844342 -0.0036964901152251304 7.154849544653147e-07" rpy="0 0 0" />
+      <mass value="0.00615823855422499" />
+      <inertia ixx="4.011081796762234e-10" ixy="1.555598740555813e-10" ixz="-8.681326587161194e-14" iyy="9.263589275269153e-10" iyz="1.860488399977841e-14" izz="9.186938200391148e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_4.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link3_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link3_4.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint3_4"
-    type="revolute">
-    <origin
-      xyz="0.025 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link3_3" />
-    <child
-      link="l_f_link3_4" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint3_4" type="revolute">
+    <origin xyz="0.025 0 0" rpy="0 0 0" />
+    <parent link="l_f_link3_3" />
+    <child link="l_f_link3_4" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link4_1">
+  <link name="l_f_link4_1">
     <inertial>
-      <origin
-        xyz="0.00700303490017868 -1.36491706825836E-10 0.000969318172471371"
-        rpy="0 0 0" />
-      <mass
-        value="0.00512729933180569" />
-      <inertia
-        ixx="2.7295655407302E-07"
-        ixy="1.22250327077853E-13"
-        ixz="-3.39750271946444E-08"
-        iyy="3.98793912386068E-07"
-        iyz="-7.13636871093389E-13"
-        izz="3.23508411603554E-07" />
+      <origin xyz="0.007002118635297736 -1.074867170048048e-07 0.0009685578821514235" rpy="0 0 0" />
+      <mass value="0.004097008849009738" />
+      <inertia ixx="2.7235757119377533e-10" ixy="-3.0715364786348715e-15" ixz="-3.3926045988031e-11" iyy="3.9765265119677777e-10" iyz="-1.4008169220723689e-15" izz="3.2255096997947513e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_1.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      <material name="">
+        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_1.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint4_1"
-    type="revolute">
-    <origin
-      xyz="0.006966 0.013688 0.1644"
-      rpy="0 -1.5708 0" />
-    <parent
-      link="left_hand_base" />
-    <child
-      link="l_f_link4_1" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint4_1" type="revolute">
+    <origin xyz="0.006966 0.013688 0.1644" rpy="0 -1.5708 0" />
+    <parent link="left_hand_base" />
+    <child link="l_f_link4_1" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="0.6" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link4_2">
+  <link name="l_f_link4_2">
     <inertial>
-      <origin
-        xyz="0.0211604718221049 -0.000591444849743565 2.29173686316919E-06"
-        rpy="0 0 0" />
-      <mass
-        value="0.0118025067643813" />
-      <inertia
-        ixx="6.95572810469925E-07"
-        ixy="3.06109309134445E-08"
-        ixz="1.78986618807753E-09"
-        iyy="2.07663075277299E-06"
-        iyz="1.12316142746841E-10"
-        izz="2.05914617403501E-06" />
+      <origin xyz="0.02116222396967557 -0.0005903778748454666 2.726223716673e-06" rpy="0 0 0" />
+      <mass value="0.009428301114189446" />
+      <inertia ixx="6.935853771803929e-10" ixy="3.0680508373708103e-11" ixz="1.7881750565536035e-12" iyy="2.071578462956071e-09" iyz="1.5938757167836672e-13" izz="2.0541639196537616e-09" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_2.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_2.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint4_2"
-    type="revolute">
-    <origin
-      xyz="0.017 0 0"
-      rpy="-1.5708 0 0" />
-    <parent
-      link="l_f_link4_1" />
-    <child
-      link="l_f_link4_2" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint4_2" type="revolute">
+    <origin xyz="0.017 0 0" rpy="-1.5708 0 0" />
+    <parent link="l_f_link4_1" />
+    <child link="l_f_link4_2" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link4_3">
+  <link name="l_f_link4_3">
     <inertial>
-      <origin
-        xyz="0.0134548153053673 -0.000702381707239822 3.81155380591025E-07"
-        rpy="0 0 0" />
-      <mass
-        value="0.00572598873974366" />
-      <inertia
-        ixx="2.55428310123149E-07"
-        ixy="1.11113815746773E-08"
-        ixz="2.25321389715399E-11"
-        iyy="4.46843623646948E-07"
-        iyz="-6.58573110698767E-12"
-        izz="4.76545399111878E-07" />
+      <origin xyz="0.013458651804175747 -0.0006994150597613606 7.128935762079505e-07" rpy="0 0 0" />
+      <mass value="0.004572753788921786" />
+      <inertia ixx="2.546301684362594e-10" ixy="1.114406167462815e-11" ixz="5.1172182207921757e-14" iyy="4.44988979326166e-10" iyz="6.442512730790462e-15" izz="4.746572278471702e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_3.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_3.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint4_3"
-    type="revolute">
-    <origin
-      xyz="0.043 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link4_2" />
-    <child
-      link="l_f_link4_3" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint4_3" type="revolute">
+    <origin xyz="0.043 0 0" rpy="0 0 0" />
+    <parent link="l_f_link4_2" />
+    <child link="l_f_link4_3" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link4_4">
+  <link name="l_f_link4_4">
     <inertial>
-      <origin
-        xyz="-0.13362728668973 -0.0157854249827552 -0.0159339221842777"
-        rpy="0 0 0" />
-      <mass
-        value="0.00511359728172243" />
-      <inertia
-        ixx="0.000000061680506465688"
-        ixy="-0.0000000135176421458247"
-        ixz="9.49130763997118E-10"
-        iyy="0.000000214948104653407"
-        iyz="6.42111861959019E-09"
-        izz="0.0000001778086242802" />
+      <origin xyz="0.016260909698443425 -0.0036964901152251304 7.154849544656191e-07" rpy="0 0 0" />
+      <mass value="0.00615823855422499" />
+      <inertia ixx="4.011081796762233e-10" ixy="1.555598740555813e-10" ixz="-8.681326587154369e-14" iyy="9.263589275269145e-10" iyz="1.8604883999770175e-14" izz="9.18693820039114e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_4.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link4_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link4_4.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint4_4"
-    type="revolute">
-    <origin
-      xyz="0.025 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link4_3" />
-    <child
-      link="l_f_link4_4" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint4_4" type="revolute">
+    <origin xyz="0.025 0 0" rpy="0 0 0" />
+    <parent link="l_f_link4_3" />
+    <child link="l_f_link4_4" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link5_1">
+  <link name="l_f_link5_1">
     <inertial>
-      <origin
-        xyz="0.00700303415129234 -1.36491706825836E-10 0.000969318901447381"
-        rpy="0 0 0" />
-      <mass
-        value="0.00512729994652864" />
-      <inertia
-        ixx="2.7295657841603E-07"
-        ixy="1.2225032591792E-13"
-        ixz="-3.3975003847395E-08"
-        iyy="3.98793959098605E-07"
-        iyz="-7.13636872825627E-13"
-        izz="3.23508437205666E-07" />
+      <origin xyz="0.007002122699750756 -1.0891508955913684e-07 0.0009685510768750549" rpy="0 0 0" />
+      <mass value="0.004097005770491854" />
+      <inertia ixx="2.723572534904412e-10" ixy="-3.119786929089952e-15" ixz="-3.3926236911239105e-11" iyy="3.9765223612050723e-10" iyz="-1.3416687183467564e-15" izz="3.225508590514057e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_1.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      <material name="">
+        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_1.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_1.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint5_1"
-    type="revolute">
-    <origin
-      xyz="0.006966 0.037988 0.1504"
-      rpy="0 -1.5708 0" />
-    <parent
-      link="left_hand_base" />
-    <child
-      link="l_f_link5_1" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint5_1" type="revolute">
+    <origin xyz="0.006966 0.037988 0.1504" rpy="0 -1.5708 0" />
+    <parent link="left_hand_base" />
+    <child link="l_f_link5_1" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="0.6" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link5_2">
+  <link name="l_f_link5_2">
     <inertial>
-      <origin
-        xyz="0.0211604718221046 -0.000591444849743758 2.2917368632247E-06"
-        rpy="0 0 0" />
-      <mass
-        value="0.0118025067643815" />
-      <inertia
-        ixx="6.95572810469934E-07"
-        ixy="3.0610930913427E-08"
-        ixz="1.78986618807448E-09"
-        iyy="2.076630752773E-06"
-        iyz="1.12316142751315E-10"
-        izz="2.05914617403502E-06" />
+      <origin xyz="0.02116222396967557 -0.0005903778748454669 2.72622371667293e-06" rpy="0 0 0" />
+      <mass value="0.009428301114189446" />
+      <inertia ixx="6.93585377180393e-10" ixy="3.0680508373707897e-11" ixz="1.788175056553524e-12" iyy="2.071578462956071e-09" iyz="1.5938757167836677e-13" izz="2.0541639196537616e-09" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_2.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_2.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_2.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint5_2"
-    type="revolute">
-    <origin
-      xyz="0.017 0 0"
-      rpy="-1.5708 0 0" />
-    <parent
-      link="l_f_link5_1" />
-    <child
-      link="l_f_link5_2" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint5_2" type="revolute">
+    <origin xyz="0.017 0 0" rpy="-1.5708 0 0" />
+    <parent link="l_f_link5_1" />
+    <child link="l_f_link5_2" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link5_3">
+  <link name="l_f_link5_3">
     <inertial>
-      <origin
-        xyz="0.0134548153053674 -0.000702381707239666 3.81155380702047E-07"
-        rpy="0 0 0" />
-      <mass
-        value="0.00572598873974358" />
-      <inertia
-        ixx="2.55428310123145E-07"
-        ixy="1.11113815746782E-08"
-        ixz="2.2532138970385E-11"
-        iyy="4.46843623646946E-07"
-        iyz="-6.58573110690028E-12"
-        izz="4.76545399111873E-07" />
+      <origin xyz="0.013458651804125232 -0.0006994150597455533 7.128935022369632e-07" rpy="0 0 0" />
+      <mass value="0.004572753788933973" />
+      <inertia ixx="2.546301684380226e-10" ixy="1.1144061676265612e-11" ixz="5.117217899456576e-14" iyy="4.449889793282455e-10" iyz="6.442515046640594e-15" izz="4.746572278485528e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_3.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_3.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_3.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint5_3"
-    type="revolute">
-    <origin
-      xyz="0.043 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link5_2" />
-    <child
-      link="l_f_link5_3" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint5_3" type="revolute">
+    <origin xyz="0.043 0 0" rpy="0 0 0" />
+    <parent link="l_f_link5_2" />
+    <child link="l_f_link5_3" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
-  <link
-    name="l_f_link5_4">
+  <link name="l_f_link5_4">
     <inertial>
-      <origin
-        xyz="-0.119627286690287 -0.015785424982547 -0.0402339221842787"
-        rpy="0 0 0" />
-      <mass
-        value="0.00511359728172243" />
-      <inertia
-        ixx="0.000000061680506465688"
-        ixy="-0.0000000135176421458248"
-        ixz="9.49130763997079E-10"
-        iyy="0.000000214948104653407"
-        iyz="6.42111861958955E-09"
-        izz="0.0000001778086242802" />
+      <origin xyz="0.01626090969844342 -0.003696490115225131 7.154849544654222e-07" rpy="0 0 0" />
+      <mass value="0.00615823855422499" />
+      <inertia ixx="4.0110817967622324e-10" ixy="1.5555987405558126e-10" ixz="-8.681326587158558e-14" iyy="9.263589275269153e-10" iyz="1.8604883999773192e-14" izz="9.186938200391148e-10" />
     </inertial>
     <visual>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_4.STL" />
       </geometry>
-      <material
-        name="">
-        <color
-          rgba="0.6 0.6 0.6 1" />
+      <material name="">
+        <color rgba="0.6 0.6 0.6 1" />
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="../meshes/l_f_link5_4.STL" />
+        <mesh filename="../meshes/dexhand021_simplified/l_f_link5_4.STL" />
       </geometry>
     </collision>
   </link>
-  <joint
-    name="l_f_joint5_4"
-    type="revolute">
-    <origin
-      xyz="0.025 0 0"
-      rpy="0 0 0" />
-    <parent
-      link="l_f_link5_3" />
-    <child
-      link="l_f_link5_4" />
-    <axis
-      xyz="0 0 1" />
+  <joint name="l_f_joint5_4" type="revolute">
+    <origin xyz="0.025 0 0" rpy="0 0 0" />
+    <parent link="l_f_link5_3" />
+    <child link="l_f_link5_4" />
+    <axis xyz="0 0 1" />
     <limit lower="0" upper="1.3" effort="10" velocity="1.5" />
     <joint_properties damping="0.3" friction="0.6" />
   </joint>
 
-  <!-- Left Hand Fingertips -->
+
   <link name="l_f_link1_tip">
     <inertial>
       <origin xyz="0 0 0.005" rpy="0 0 0" />

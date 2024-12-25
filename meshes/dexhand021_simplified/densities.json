@@ -1,0 +1,5 @@
+{
+    "right_hand_base": 1130,
+    "left_hand_base": 1120,
+    "[lr]_f_link.*": 800
+}
