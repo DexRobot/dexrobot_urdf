@@ -14,15 +14,14 @@
 
   <link name="r_p_link0">
     <inertial>
-      <origin xyz="0.0010977 0.0064518 0.23397" rpy="0 0 0" />
-      <mass value="0.13795" />
-      <inertia ixx="0.00028068" ixy="-2.2206E-06" ixz="1.4146E-05" iyy="0.0003516" iyz="-3.8963E-05"
-        izz="0.0001157" />
+      <origin xyz="0.0011074986817912846 0.006472387526997947 0.23409601570168226" rpy="0 0 0" />
+      <mass value="0.4581543554912673" />
+      <inertia ixx="1.0350833665771442e-07" ixy="-8.319054634221741e-10" ixz="5.221502157999468e-09" iyy="1.297257523689786e-07" iyz="-1.4385510644191774e-08" izz="4.272589354090268e-08" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link0.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link0.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -31,22 +30,21 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link0.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link0.STL" />
       </geometry>
     </collision>
   </link>
 
   <link name="r_f_link1_1">
     <inertial>
-      <origin xyz="0.0020615 -0.00037197 -0.018564" rpy="0 0 0" />
-      <mass value="0.0055494" />
-      <inertia ixx="3.4565E-07" ixy="3.2137E-09" ixz="-1.7246E-08" iyy="3.9934E-07" iyz="7.6125E-09"
-        izz="2.5135E-07" />
+      <origin xyz="0.002052234636018281 -0.00037264296027423964 -0.018528755499499953" rpy="0 0 0" />
+      <mass value="0.005180345914026771" />
+      <inertia ixx="1.1430624890840812e-09" ixy="5.518285795047138e-12" ixz="-1.0163028770836786e-10" iyy="1.2177661234390167e-09" iyz="3.027326337843877e-11" izz="2.6375976308253895e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -55,7 +53,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -71,15 +69,14 @@
 
   <link name="r_f_link1_2">
     <inertial>
-      <origin xyz="0.021543 -0.00050501 0.00081121" rpy="0 0 0" />
-      <mass value="0.0055051" />
-      <inertia ixx="2.2456E-07" ixy="9.7835E-09" ixz="-1.7498E-10" iyy="1.137E-06" iyz="-1.2442E-09"
-        izz="1.1197E-06" />
+      <origin xyz="0.021535504665713034 -0.0005063776397706903 0.0008142325238396855" rpy="0 0 0" />
+      <mass value="0.005145873046732899" />
+      <inertia ixx="2.095562573407677e-10" ixy="9.153029438541743e-12" ixz="-1.1384864654098634e-13" iyy="1.0604069584701189e-09" iyz="-1.1306254380399874e-12" izz="1.0442073361852393e-09" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -88,7 +85,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -104,15 +101,14 @@
 
   <link name="r_f_link1_3">
     <inertial>
-      <origin xyz="0.013221 -0.0007256 0.0012972" rpy="0 0 0" />
-      <mass value="0.0037541" />
-      <inertia ixx="1.0988E-07" ixy="1.0785E-08" ixz="-1.6719E-09" iyy="3.3662E-07"
-        iyz="-4.2381E-11" izz="3.4896E-07" />
+      <origin xyz="0.013223206653743833 -0.0007239105528826962 0.0012977744957347582" rpy="0 0 0" />
+      <mass value="0.003510129470234603" />
+      <inertia ixx="1.0264326739890384e-10" ixy="1.00343840042598e-11" ixz="-1.537174856938822e-12" iyy="3.145228617298157e-10" iyz="-3.584871833385339e-14" izz="3.2605393609475025e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_3.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -121,7 +117,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -137,15 +133,14 @@
 
   <link name="r_f_link1_4">
     <inertial>
-      <origin xyz="0.016826 -0.0025407 0.0012899" rpy="0 0 0" />
-      <mass value="0.0046663" />
-      <inertia ixx="1.6074E-07" ixy="1.1321E-07" ixz="6.373E-11" iyy="4.4191E-07" iyz="-4.8009E-11"
-        izz="4.0692E-07" />
+      <origin xyz="0.016827162662944168 -0.0025428441924313476 0.0012898514164979443" rpy="0 0 0" />
+      <mass value="0.00435766768406691" />
+      <inertia ixx="1.728886893578917e-10" ixy="7.193280509045395e-11" ixz="9.525487099852026e-14" iyy="5.47556480763753e-10" iyz="-4.665149094714642e-14" izz="5.333289131753526e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_4.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -154,7 +149,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -170,15 +165,14 @@
 
   <link name="r_f_link1_4_1">
     <inertial>
-      <origin xyz="0.0097677 0.0060905 0.001293" rpy="0 0 0" />
-      <mass value="0.0031747" />
-      <inertia ixx="8.6947E-08" ixy="-1.2275E-09" ixz="7.5693E-12" iyy="1.0411E-07"
-        iyz="-5.9924E-14" izz="2.5262E-08" />
+      <origin xyz="0.00976545037646227 0.006088691115452144 0.0012928496121529978" rpy="0 0 0" />
+      <mass value="0.00037285923791626445" />
+      <inertia ixx="1.0806913722591278e-11" ixy="-1.434355226187965e-13" ixz="7.904650389859608e-16" iyy="1.2799737603403855e-11" iyz="9.706804921696106e-17" izz="2.971985515053042e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_4_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -187,7 +181,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_4_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -200,15 +194,14 @@
 
   <link name="r_f_link1_4_2">
     <inertial>
-      <origin xyz="0.0097677 0.0060905 0.001293" rpy="0 0 0" />
-      <mass value="0.0031747" />
-      <inertia ixx="8.6947E-08" ixy="-1.2275E-09" ixz="7.5693E-12" iyy="1.0411E-07"
-        iyz="-5.9924E-14" izz="2.5262E-08" />
+      <origin xyz="0.015433183995062187 -0.0061487266621455365 0.0012940973222927408" rpy="0 0 0" />
+      <mass value="0.0019468120969125988" />
+      <inertia ixx="1.4302400339154933e-10" ixy="4.887309828246755e-11" ixz="-5.685919419601672e-14" iyy="3.2625738627404405e-10" iyz="7.480451372260064e-15" izz="2.8666011578141624e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_4_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -217,7 +210,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_4_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -231,15 +224,14 @@
 
   <link name="r_f_link1_3_1">
     <inertial>
-      <origin xyz="0.012417 0.0077244 0.0012932" rpy="0 0 0" />
-      <mass value="0.00052776" />
-      <inertia ixx="1.4869E-08" ixy="-1.6788E-10" ixz="1.1267E-12" iyy="1.7194E-08"
-        iyz="-1.6255E-12" izz="4.9586E-09" />
+      <origin xyz="0.012419626621348002 0.007723681641112162 0.0012920357276482693" rpy="0 0 0" />
+      <mass value="0.0004927439497821333" />
+      <inertia ixx="1.4812698827671588e-11" ixy="-2.4625303330183365e-13" ixz="-5.204752318762885e-16" iyy="1.688627032313685e-11" iyz="-7.055265282688354e-16" izz="4.840002879941831e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_3_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -248,7 +240,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_3_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -261,15 +253,14 @@
   </joint>
   <link name="r_f_link1_3_2">
     <inertial>
-      <origin xyz="0.012937 -0.0049732 0.0012923" rpy="0 0 0" />
-      <mass value="0.00099237" />
-      <inertia ixx="5.7257E-08" ixy="7.4848E-10" ixz="1.3311E-12" iyy="7.5703E-08" iyz="-1.1253E-13"
-        izz="5.0943E-08" />
+      <origin xyz="0.012938038149695234 -0.004966116981932351 0.0012957151384533254" rpy="0 0 0" />
+      <mass value="0.0009264867224319483" />
+      <inertia ixx="5.342701293871887e-11" ixy="7.101425075294421e-13" ixz="-1.771926549530019e-15" iyy="7.062474289204522e-11" iyz="1.4720413014316507e-15" izz="4.7550430803969934e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_3_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -278,7 +269,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_3_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -292,15 +283,14 @@
 
   <link name="r_f_link1_2_1">
     <inertial>
-      <origin xyz="0.020433 0.0095113 0.0012921" rpy="0 0 0" />
-      <mass value="0.00175" />
-      <inertia ixx="4.559E-08" ixy="3.744E-09" ixz="3.4826E-12" iyy="1.0121E-07" iyz="-9.7154E-13"
-        izz="7.1283E-08" />
+      <origin xyz="0.02043366719765508 0.0095110012352192 0.0012923408126127045" rpy="0 0 0" />
+      <mass value="0.0016354719692142122" />
+      <inertia ixx="4.406768580953342e-11" ixy="3.6957813554077775e-12" ixz="6.271444606736929e-15" iyy="9.649204412507137e-11" iyz="-3.0566463158202232e-15" izz="6.793850270146395e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_2_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -309,7 +299,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_2_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -323,15 +313,14 @@
 
   <link name="r_f_link1_2_2">
     <inertial>
-      <origin xyz="0.022918 -0.0027795 0.0012966" rpy="0 0 0" />
-      <mass value="0.0027191" />
-      <inertia ixx="2.4531E-07" ixy="1.4115E-08" ixz="3.2875E-10" iyy="6.4499E-07" iyz="7.8286E-11"
-        izz="5.6884E-07" />
+      <origin xyz="0.022921501261816545 -0.0027716306188103625 0.0012979021572152708" rpy="0 0 0" />
+      <mass value="0.002536590997261413" />
+      <inertia ixx="2.2859663761882352e-10" ixy="1.3411101520302956e-11" ixz="3.0992878304785846e-13" iyy="6.01449052592349e-10" iyz="9.341938224099394e-14" izz="5.304297061779193e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_2_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -340,7 +329,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link1_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link1_2_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -354,15 +343,14 @@
 
   <link name="r_f_link2_1">
     <inertial>
-      <origin xyz="0.0080017 1.8833E-05 -0.0015869" rpy="0 0 0" />
-      <mass value="0.003769" />
-      <inertia ixx="2.4739E-07" ixy="-9.1973E-10" ixz="5.2271E-08" iyy="3.9884E-07" iyz="-1.804E-10"
-        izz="3.195E-07" />
+      <origin xyz="0.00800686231185624 1.8338860572319307e-05 -0.0015842278080929802" rpy="0 0 0" />
+      <mass value="0.0035185790867912825" />
+      <inertia ixx="2.306699006679482e-10" ixy="-8.218728590128597e-13" ixz="4.890426965618435e-11" iyy="3.7198481717440744e-10" iyz="-1.5962544309162244e-13" izz="2.9800529687295447e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -371,7 +359,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -387,15 +375,14 @@
 
   <link name="r_f_link2_2">
     <inertial>
-      <origin xyz="0.021452 -0.0004624 -0.00048157" rpy="0 0 0" />
-      <mass value="0.0053385" />
-      <inertia ixx="2.2128E-07" ixy="9.382E-09" ixz="-3.6487E-10" iyy="1.1314E-06" iyz="-1.001E-09"
-        izz="1.1153E-06" />
+      <origin xyz="0.021444679550905597 -0.00046289490893125946 -0.00047869270897582744" rpy="0 0 0" />
+      <mass value="0.00498936744865468" />
+      <inertia ixx="2.0644763911341986e-10" ixy="8.780455972495662e-12" ixz="-2.955798697672007e-13" iyy="1.0552014748309064e-09" iyz="-9.019287841475982e-13" izz="1.0401625323233909e-09" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -404,7 +391,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -420,15 +407,14 @@
 
   <link name="r_f_link2_3">
     <inertial>
-      <origin xyz="0.013278 -0.000622 -1.8521E-05" rpy="0 0 0" />
-      <mass value="0.0035515" />
-      <inertia ixx="1.0247E-07" ixy="1.1628E-08" ixz="-1.76E-09" iyy="3.2945E-07" iyz="-9.6177E-11"
-        izz="3.4319E-07" />
+      <origin xyz="0.013280328692675957 -0.000619931592170148 -1.7863321659893763e-05" rpy="0 0 0" />
+      <mass value="0.003320332898413509" />
+      <inertia ixx="9.569221204956144e-11" ixy="1.0826362598444603e-11" ixz="-1.618171363270053e-12" iyy="3.077893159220674e-10" iyz="-8.827964273954513e-14" izz="3.2064040293000987e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_3.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -437,7 +423,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -453,15 +439,14 @@
 
   <link name="r_f_link2_4">
     <inertial>
-      <origin xyz="0.016834 -0.0025432 -2.5214E-06" rpy="0 0 0" />
-      <mass value="0.0046613" />
-      <inertia ixx="1.6049E-07" ixy="1.1313E-07" ixz="6.3698E-11" iyy="4.4164E-07" iyz="-4.8043E-11"
-        izz="4.0676E-07" />
+      <origin xyz="0.016835724143011772 -0.002545133894972038 -2.3757910612300705e-06" rpy="0 0 0" />
+      <mass value="0.004352952819365211" />
+      <inertia ixx="1.7269823391120783e-10" ixy="7.185121765683682e-11" ixz="1.0129621345450238e-13" iyy="5.47093812720547e-10" iyz="-4.584119052051053e-14" izz="5.330028957299744e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_4.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -470,7 +455,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -486,15 +471,14 @@
 
   <link name="r_f_link2_4_1">
     <inertial>
-      <origin xyz="0.0097403 0.0059311 6.6294E-07" rpy="0 0 0" />
-      <mass value="0.00041733" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5917E-13" iyy="1.3281E-08"
-        iyz="-3.0602E-14" izz="3.3335E-09" />
+      <origin xyz="0.009738422454577171 0.005930029867600307 5.184462774280181e-07" rpy="0 0 0" />
+      <mass value="0.00038943301930674843" />
+      <inertia ixx="1.1761888707665848e-11" ixy="-1.9209378389905702e-13" ixz="1.1862850720139697e-15" iyy="1.3432121472297152e-11" iyz="1.5284550933443108e-16" izz="3.328060571268917e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_4_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -503,7 +487,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_4_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -517,15 +501,14 @@
 
   <link name="r_f_link2_4_2">
     <inertial>
-      <origin xyz="-1.2589 0.28837 -0.26222" rpy="0 0 0" />
-      <mass value="0.0110157" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5917E-13" iyy="1.3281E-08"
-        iyz="-3.0602E-14" izz="3.3335E-09" />
+      <origin xyz="0.015433183876606105 -0.0061487266132256285 1.6634835699823495e-06" rpy="0 0 0" />
+      <mass value="0.0019468121675446145" />
+      <inertia ixx="1.4302405503412767e-10" ixy="4.8873098825622075e-11" ixz="-5.680610977824491e-14" iyy="3.2625743956843556e-10" iyz="7.694530504406818e-15" izz="2.8666011857758843e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_4_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -534,7 +517,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_4_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -548,15 +531,14 @@
 
   <link name="r_f_link2_3_1">
     <inertial>
-      <origin xyz="0.012402 0.0077167 5.6717E-07" rpy="0 0 0" />
-      <mass value="0.00053481" />
-      <inertia ixx="1.5033E-08" ixy="-1.6532E-10" ixz="1.0361E-12" iyy="1.7298E-08"
-        iyz="-1.4832E-12" izz="5.0339E-09" />
+      <origin xyz="0.012402519029567705 0.007714920695070759 1.755888957952506e-09" rpy="0 0 0" />
+      <mass value="0.0004998303821989283" />
+      <inertia ixx="1.5124255825893735e-11" ixy="-2.547965438972332e-13" ixz="1.430651712144926e-16" iyy="1.713520438388164e-11" iyz="-1.9604892907397644e-16" izz="4.9359960447248415e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_3_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -565,7 +547,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_3_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -579,15 +561,14 @@
 
   <link name="r_f_link2_3_2">
     <inertial>
-      <origin xyz="0.012937 -0.0049731 2.4377E-07" rpy="0 0 0" />
-      <mass value="0.00099236" />
-      <inertia ixx="5.7257E-08" ixy="7.481E-10" ixz="-1.9878E-12" iyy="7.5702E-08" iyz="3.5066E-13"
-        izz="5.0942E-08" />
+      <origin xyz="0.012938248197779298 -0.004966379635972421 -5.799490468577361e-07" rpy="0 0 0" />
+      <mass value="0.0009265838824928239" />
+      <inertia ixx="5.3433679145874943e-11" ixy="7.112721953915515e-13" ixz="4.7564367158810995e-15" iyy="7.063684996215453e-11" iyz="-9.60224831921344e-16" izz="4.7559278625456204e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_3_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -596,7 +577,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_3_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -610,15 +591,14 @@
 
   <link name="r_f_link2_2_1">
     <inertial>
-      <origin xyz="0.020375 0.0081055 -7.099E-08" rpy="0 0 0" />
-      <mass value="0.0010001" />
-      <inertia ixx="2.7844E-08" ixy="2.338E-09" ixz="-1.1489E-12" iyy="6.7743E-08" iyz="-7.1655E-13"
-        izz="4.3548E-08" />
+      <origin xyz="0.020377386408224958 0.008105578472315775 -1.8358287781288275e-09" rpy="0 0 0" />
+      <mass value="0.0009340644343559288" />
+      <inertia ixx="2.7202530997482942e-11" ixy="2.31883057767335e-12" ixz="1.4872477691445135e-15" iyy="6.511791793415128e-11" iyz="-3.004826771360309e-17" izz="4.1669289501571996e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_2_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -627,7 +607,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_2_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -641,15 +621,14 @@
 
   <link name="r_f_link2_2_2">
     <inertial>
-      <origin xyz="0.021859 -0.0029767 -2.3841E-07" rpy="0 0 0" />
-      <mass value="0.0028758" />
-      <inertia ixx="2.6441E-07" ixy="6.0605E-09" ixz="-4.6514E-12" iyy="7.2083E-07"
-        iyz="-2.4432E-12" izz="6.3603E-07" />
+      <origin xyz="0.021873800021975243 -0.002965944865835189 3.4265420049028122e-06" rpy="0 0 0" />
+      <mass value="0.00267996297249627" />
+      <inertia ixx="2.461062629288351e-10" ixy="5.789691117977975e-12" ixz="1.382548467471143e-13" iyy="6.713031343525959e-10" iyz="6.22866562002737e-14" izz="5.92220288325112e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_2_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -658,7 +637,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link2_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link2_2_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -671,15 +650,14 @@
   </joint>
   <link name="r_f_link3_1">
     <inertial>
-      <origin xyz="0.0080017 1.8833E-05 -0.0015869" rpy="0 0 0" />
-      <mass value="0.003769" />
-      <inertia ixx="2.4739E-07" ixy="-9.1973E-10" ixz="5.2271E-08" iyy="3.9884E-07" iyz="-1.804E-10"
-        izz="3.195E-07" />
+      <origin xyz="0.008006862311855678 1.833886057219046e-05 -0.0015842278080930483" rpy="0 0 0" />
+      <mass value="0.003518579086791124" />
+      <inertia ixx="2.3066990066794662e-10" ixy="-8.218728590072904e-13" ixz="4.8904269656186795e-11" iyy="3.719848171743812e-10" iyz="-1.5962544309061537e-13" izz="2.980052968729273e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -688,7 +666,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -703,15 +681,14 @@
 
   <link name="r_f_link3_2">
     <inertial>
-      <origin xyz="0.021452 -0.0004624 -0.00048157" rpy="0 0 0" />
-      <mass value="0.0053385" />
-      <inertia ixx="2.2128E-07" ixy="9.382E-09" ixz="-3.6488E-10" iyy="1.1314E-06" iyz="-1.001E-09"
-        izz="1.1153E-06" />
+      <origin xyz="0.0214446795509126 -0.0004628949089306857 -0.00047869270898023646" rpy="0 0 0" />
+      <mass value="0.004989367448661263" />
+      <inertia ixx="2.0644763911347885e-10" ixy="8.780455972493084e-12" ixz="-2.95579869573802e-13" iyy="1.0552014748311843e-09" iyz="-9.019287841379944e-13" izz="1.040162532323615e-09" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -720,7 +697,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -736,15 +713,14 @@
 
   <link name="r_f_link3_3">
     <inertial>
-      <origin xyz="0.013278 -0.000622 -1.8521E-05" rpy="0 0 0" />
-      <mass value="0.0035515" />
-      <inertia ixx="1.0247E-07" ixy="1.1628E-08" ixz="-1.76E-09" iyy="3.2945E-07" iyz="-9.6177E-11"
-        izz="3.4319E-07" />
+      <origin xyz="0.0132803286926748 -0.0006199315921702265 -1.786332165976888e-05" rpy="0 0 0" />
+      <mass value="0.0033203328984138664" />
+      <inertia ixx="9.569221204957329e-11" ixy="1.0826362598445498e-11" ixz="-1.618171363264896e-12" iyy="3.0778931592210784e-10" iyz="-8.827964274285192e-14" izz="3.206404029300592e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_3.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -753,7 +729,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -769,15 +745,14 @@
 
   <link name="r_f_link3_4">
     <inertial>
-      <origin xyz="0.016834 -0.0025432 -2.5222E-06" rpy="0 0 0" />
-      <mass value="0.0046613" />
-      <inertia ixx="1.6049E-07" ixy="1.1313E-07" ixz="6.3661E-11" iyy="4.4164E-07" iyz="-4.8019E-11"
-        izz="4.0676E-07" />
+      <origin xyz="0.016835724143235947 -0.002545133894915793 -2.3757913431007993e-06" rpy="0 0 0" />
+      <mass value="0.00435295281947875" />
+      <inertia ixx="1.7269823391501509e-10" ixy="7.185121765445112e-11" ixz="1.0129621334840551e-13" iyy="5.470938127334459e-10" iyz="-4.5841181377205926e-14" izz="5.330028957389768e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_4.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -786,7 +761,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -802,15 +777,14 @@
 
   <link name="r_f_link3_4_1">
     <inertial>
-      <origin xyz="0.0097403 0.0059311 6.6407E-07" rpy="0 0 0" />
-      <mass value="0.00041733" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5771E-13" iyy="1.3281E-08"
-        iyz="-3.0094E-14" izz="3.3335E-09" />
+      <origin xyz="0.00973842245457717 0.005930029867600307 5.184462774227637e-07" rpy="0 0 0" />
+      <mass value="0.00038943301930674805" />
+      <inertia ixx="1.1761888707665838e-11" ixy="-1.9209378389904087e-13" ixz="1.1862850720234711e-15" iyy="1.3432121472297113e-11" iyz="1.5284550934109045e-16" izz="3.3280605712688587e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_4_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -819,7 +793,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_4_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -833,15 +807,14 @@
 
   <link name="r_f_link3_4_2">
     <inertial>
-      <origin xyz="-1.2679 0.28837 -0.23792" rpy="0 0 0" />
-      <mass value="0.0110157" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5917E-13" iyy="1.3281E-08"
-        iyz="-3.0602E-14" izz="3.3335E-09" />
+      <origin xyz="0.01543318387448119 -0.006148726611295269 1.6634813380393825e-06" rpy="0 0 0" />
+      <mass value="0.0019468121669157683" />
+      <inertia ixx="1.430240549955516e-10" ixy="4.887309879653706e-11" ixz="-5.6806065428602425e-14" iyy="3.262574395389442e-10" iyz="7.694507632569444e-15" izz="2.8666011854347663e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_4_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -850,7 +823,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_4_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -864,15 +837,14 @@
 
   <link name="r_f_link3_3_1">
     <inertial>
-      <origin xyz="0.012402 0.0077167 5.6713E-07" rpy="0 0 0" />
-      <mass value="0.00053481" />
-      <inertia ixx="1.5033E-08" ixy="-1.6532E-10" ixz="1.0361E-12" iyy="1.7298E-08"
-        iyz="-1.4833E-12" izz="5.0339E-09" />
+      <origin xyz="0.01240251902956771 0.007714920695070754 1.7558889534359512e-09" rpy="0 0 0" />
+      <mass value="0.000499830382198927" />
+      <inertia ixx="1.5124255825893716e-11" ixy="-2.5479654389723967e-13" ixz="1.430651712179438e-16" iyy="1.713520438388164e-11" iyz="-1.960489290658667e-16" izz="4.935996044724816e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_3_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -881,7 +853,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_3_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -895,15 +867,14 @@
 
   <link name="r_f_link3_3_2">
     <inertial>
-      <origin xyz="0.012937 -0.0049731 2.4377E-07" rpy="0 0 0" />
-      <mass value="0.00099236" />
-      <inertia ixx="5.7257E-08" ixy="7.481E-10" ixz="-1.9878E-12" iyy="7.5702E-08" iyz="3.5066E-13"
-        izz="5.0942E-08" />
+      <origin xyz="0.012938248197779308 -0.004966379635972423 -5.799490468601163e-07" rpy="0 0 0" />
+      <mass value="0.0009265838824928244" />
+      <inertia ixx="5.343367914587498e-11" ixy="7.112721953916032e-13" ixz="4.756436715900807e-15" iyy="7.063684996215463e-11" iyz="-9.602248319345149e-16" izz="4.7559278625456334e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_3_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -912,7 +883,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_3_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -926,15 +897,14 @@
 
   <link name="r_f_link3_2_1">
     <inertial>
-      <origin xyz="0.020375 0.0081055 -5.8267E-08" rpy="0 0 0" />
-      <mass value="0.0010001" />
-      <inertia ixx="2.7844E-08" ixy="2.338E-09" ixz="-1.1447E-12" iyy="6.7743E-08" iyz="-7.2963E-13"
-        izz="4.3548E-08" />
+      <origin xyz="0.020377386408302157 0.00810557847223745 -1.8357669268881134e-09" rpy="0 0 0" />
+      <mass value="0.0009340644343708481" />
+      <inertia ixx="2.720253099816759e-11" ixy="2.3188305780266596e-12" ixz="1.4872474913601505e-15" iyy="6.511791793480501e-11" iyz="-3.0047943705125305e-17" izz="4.166928950230157e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_2_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -943,7 +913,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_2_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -957,15 +927,14 @@
 
   <link name="r_f_link3_2_2">
     <inertial>
-      <origin xyz="0.021859 -0.0029767 -2.3801E-07" rpy="0 0 0" />
-      <mass value="0.0028758" />
-      <inertia ixx="2.6441E-07" ixy="6.0605E-09" ixz="-4.6462E-12" iyy="7.2083E-07"
-        iyz="-2.4475E-12" izz="6.3603E-07" />
+      <origin xyz="0.02187380002158159 -0.0029659448659418693 3.426541867550771e-06" rpy="0 0 0" />
+      <mass value="0.0026799629725441426" />
+      <inertia ixx="2.46106262933417e-10" ixy="5.7896911116993384e-12" ixz="1.3825483861861467e-13" iyy="6.713031343787116e-10" iyz="6.228665402436511e-14" izz="5.922202883500953e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_2_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -974,7 +943,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link3_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link3_2_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -988,15 +957,14 @@
 
   <link name="r_f_link4_1">
     <inertial>
-      <origin xyz="0.0080017 1.8833E-05 -0.0015869" rpy="0 0 0" />
-      <mass value="0.003769" />
-      <inertia ixx="2.4739E-07" ixy="-9.1973E-10" ixz="5.2271E-08" iyy="3.9884E-07" iyz="-1.804E-10"
-        izz="3.195E-07" />
+      <origin xyz="0.008006862311855783 1.8338860572211737e-05 -0.0015842278080930808" rpy="0 0 0" />
+      <mass value="0.003518579086791169" />
+      <inertia ixx="2.3066990066794698e-10" ixy="-8.218728590086198e-13" ixz="4.890426965618508e-11" iyy="3.7198481717438635e-10" iyz="-1.5962544309071066e-13" izz="2.980052968729333e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1005,7 +973,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1021,15 +989,14 @@
 
   <link name="r_f_link4_2">
     <inertial>
-      <origin xyz="0.021452 -0.0004624 -0.00048157" rpy="0 0 0" />
-      <mass value="0.0053385" />
-      <inertia ixx="2.2128E-07" ixy="9.382E-09" ixz="-3.6489E-10" iyy="1.1314E-06" iyz="-1.001E-09"
-        izz="1.1153E-06" />
+      <origin xyz="0.021444679550906676 -0.00046289490893104815 -0.0004786927089766433" rpy="0 0 0" />
+      <mass value="0.004989367448655343" />
+      <inertia ixx="2.064476391134477e-10" ixy="8.78045597250818e-12" ixz="-2.9557986970972456e-13" iyy="1.0552014748310247e-09" iyz="-9.019287841432915e-13" izz="1.0401625323234897e-09" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1038,7 +1005,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1054,15 +1021,14 @@
 
   <link name="r_f_link4_3">
     <inertial>
-      <origin xyz="0.013278 -0.000622 -1.8521E-05" rpy="0 0 0" />
-      <mass value="0.0035515" />
-      <inertia ixx="1.0247E-07" ixy="1.1628E-08" ixz="-1.76E-09" iyy="3.2945E-07" iyz="-9.6177E-11"
-        izz="3.4319E-07" />
+      <origin xyz="0.013280328692675118 -0.0006199315921702536 -1.7863321659824374e-05" rpy="0 0 0" />
+      <mass value="0.0033203328984136053" />
+      <inertia ixx="9.569221204956856e-11" ixy="1.0826362598447786e-11" ixz="-1.6181713632650622e-12" iyy="3.077893159220978e-10" iyz="-8.827964274264372e-14" izz="3.2064040293005174e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_3.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1071,7 +1037,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -1087,15 +1053,14 @@
 
   <link name="r_f_link4_4">
     <inertial>
-      <origin xyz="0.016834 -0.0025432 -2.5214E-06" rpy="0 0 0" />
-      <mass value="0.0046613" />
-      <inertia ixx="1.6049E-07" ixy="1.1313E-07" ixz="6.3697E-11" iyy="4.4164E-07" iyz="-4.8043E-11"
-        izz="4.0676E-07" />
+      <origin xyz="0.016835724142979052 -0.002545133895002117 -2.3757912991866514e-06" rpy="0 0 0" />
+      <mass value="0.004352952819355013" />
+      <inertia ixx="1.726982339129985e-10" ixy="7.185121765660962e-11" ixz="1.0129621084417931e-13" iyy="5.470938127189919e-10" iyz="-4.5841181436560187e-14" izz="5.330028957234556e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_4.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1104,7 +1069,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -1120,15 +1085,14 @@
 
   <link name="r_f_link4_4_1">
     <inertial>
-      <origin xyz="0.0097403 0.0059311 6.6288E-07" rpy="0 0 0" />
-      <mass value="0.00041733" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5925E-13" iyy="1.3281E-08"
-        iyz="-3.0604E-14" izz="3.3335E-09" />
+      <origin xyz="0.00973842245459893 0.005930029867598804 5.184462258307792e-07" rpy="0 0 0" />
+      <mass value="0.00038943301930773646" />
+      <inertia ixx="1.1761888707777006e-11" ixy="-1.920937838807718e-13" ixz="1.1862851425339631e-15" iyy="1.3432121472446846e-11" iyz="1.5284543351363473e-16" izz="3.328060571257918e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_4_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1137,7 +1101,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_4_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1151,15 +1115,14 @@
 
   <link name="r_f_link4_4_2">
     <inertial>
-      <origin xyz="-1.2589 0.28837 -0.21362" rpy="0 0 0" />
-      <mass value="0.0110157" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5917E-13" iyy="1.3281E-08"
-        iyz="-3.0602E-14" izz="3.3335E-09" />
+      <origin xyz="0.015433183877996647 -0.006148726613474619 1.663483296615289e-06" rpy="0 0 0" />
+      <mass value="0.0019468121676849014" />
+      <inertia ixx="1.4302405503805388e-10" ixy="4.8873098834891383e-11" ixz="-5.680609950280635e-14" iyy="3.2625743962275807e-10" iyz="7.694528690012234e-15" izz="2.866601186317795e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_4_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1168,7 +1131,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_4_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1182,15 +1145,14 @@
 
   <link name="r_f_link4_3_2">
     <inertial>
-      <origin xyz="0.012937 -0.0049731 2.4377E-07" rpy="0 0 0" />
-      <mass value="0.00099236" />
-      <inertia ixx="5.7257E-08" ixy="7.481E-10" ixz="-1.9878E-12" iyy="7.5702E-08" iyz="3.5066E-13"
-        izz="5.0942E-08" />
+      <origin xyz="0.01293824819777932 -0.004966379635972429 -5.799490468630916e-07" rpy="0 0 0" />
+      <mass value="0.0009265838824928253" />
+      <inertia ixx="5.343367914587497e-11" ixy="7.112721953916162e-13" ixz="4.75643671594095e-15" iyy="7.063684996215479e-11" iyz="-9.602248319449432e-16" izz="4.755927862545644e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_3_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1199,7 +1161,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_3_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1213,15 +1175,14 @@
 
   <link name="r_f_link4_3_1">
     <inertial>
-      <origin xyz="0.012402 0.0077167 5.6717E-07" rpy="0 0 0" />
-      <mass value="0.00053481" />
-      <inertia ixx="1.5033E-08" ixy="-1.6532E-10" ixz="1.0361E-12" iyy="1.7298E-08"
-        iyz="-1.4832E-12" izz="5.0339E-09" />
+      <origin xyz="0.012402519029617028 0.007714920695189423 1.7562179048963857e-09" rpy="0 0 0" />
+      <mass value="0.000499830382166977" />
+      <inertia ixx="1.5124255824896737e-11" ixy="-2.547965438512665e-13" ixz="1.4306529804306635e-16" iyy="1.713520438301633e-11" iyz="-1.9604862408080833e-16" izz="4.935996044555076e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_3_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1230,7 +1191,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_3_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1244,15 +1205,14 @@
 
   <link name="r_f_link4_2_1">
     <inertial>
-      <origin xyz="0.020375 0.0081055 -6.6757E-08" rpy="0 0 0" />
-      <mass value="0.0010001" />
-      <inertia ixx="2.7844E-08" ixy="2.338E-09" ixz="-1.1314E-12" iyy="6.7743E-08" iyz="-7.2156E-13"
-        izz="4.3548E-08" />
+      <origin xyz="0.020377386408241372 0.00810557847230356 -1.8358250730400228e-09" rpy="0 0 0" />
+      <mass value="0.0009340644343591204" />
+      <inertia ixx="2.720253099758899e-11" ixy="2.31883057772797e-12" ixz="1.4872477534318148e-15" iyy="6.511791793427608e-11" iyz="-3.0048229349295313e-17" izz="4.166928950170176e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_2_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1261,7 +1221,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_2_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1275,15 +1235,14 @@
 
   <link name="r_f_link4_2_2">
     <inertial>
-      <origin xyz="0.020375 0.0081055 -6.6757E-08" rpy="0 0 0" />
-      <mass value="0.0010001" />
-      <inertia ixx="2.7844E-08" ixy="2.338E-09" ixz="-1.1314E-12" iyy="6.7743E-08" iyz="-7.2156E-13"
-        izz="4.3548E-08" />
+      <origin xyz="0.021873800021581503 -0.0029659448659418606 3.4265418675301423e-06" rpy="0 0 0" />
+      <mass value="0.002679962972544183" />
+      <inertia ixx="2.4610626293342107e-10" ixy="5.789691111700734e-12" ixz="1.3825483861862083e-13" iyy="6.713031343787191e-10" iyz="6.228665402431011e-14" izz="5.922202883501009e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_2_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1292,7 +1251,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link4_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link4_2_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1306,15 +1265,14 @@
 
   <link name="r_f_link5_1">
     <inertial>
-      <origin xyz="0.0080017 1.8833E-05 -0.0015869" rpy="0 0 0" />
-      <mass value="0.003769" />
-      <inertia ixx="2.4739E-07" ixy="-9.1973E-10" ixz="5.2271E-08" iyy="3.9884E-07" iyz="-1.804E-10"
-        izz="3.195E-07" />
+      <origin xyz="0.008006862311856088 1.833886057228032e-05 -0.0015842278080930164" rpy="0 0 0" />
+      <mass value="0.003518579086791241" />
+      <inertia ixx="2.3066990066794766e-10" ixy="-8.218728590113507e-13" ixz="4.890426965618449e-11" iyy="3.719848171743997e-10" iyz="-1.5962544309106418e-13" izz="2.9800529687294687e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1323,7 +1281,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1339,15 +1297,14 @@
 
   <link name="r_f_link5_2">
     <inertial>
-      <origin xyz="0.021452 -0.0004624 -0.00048157" rpy="0 0 0" />
-      <mass value="0.0053385" />
-      <inertia ixx="2.2128E-07" ixy="9.382E-09" ixz="-3.6489E-10" iyy="1.1314E-06" iyz="-1.001E-09"
-        izz="1.1153E-06" />
+      <origin xyz="0.021444679550906603 -0.0004628949089313295 -0.0004786927089768149" rpy="0 0 0" />
+      <mass value="0.004989367448655121" />
+      <inertia ixx="2.0644763911342806e-10" ixy="8.78045597248202e-12" ixz="-2.955798697224554e-13" iyy="1.0552014748309056e-09" iyz="-9.019287841410571e-13" izz="1.0401625323233743e-09" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1356,7 +1313,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1372,15 +1329,14 @@
 
   <link name="r_f_link5_3">
     <inertial>
-      <origin xyz="0.013278 -0.000622 -1.8521E-05" rpy="0 0 0" />
-      <mass value="0.0035515" />
-      <inertia ixx="1.0247E-07" ixy="1.1628E-08" ixz="-1.76E-09" iyy="3.2945E-07" iyz="-9.6177E-11"
-        izz="3.4319E-07" />
+      <origin xyz="0.013280328692676044 -0.0006199315921701265 -1.7863321659867563e-05" rpy="0 0 0" />
+      <mass value="0.003320332898413456" />
+      <inertia ixx="9.569221204956008e-11" ixy="1.0826362598447573e-11" ixz="-1.618171363270022e-12" iyy="3.07789315922064e-10" iyz="-8.8279642739463e-14" izz="3.2064040293000584e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_3.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1389,7 +1345,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_3.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -1405,15 +1361,14 @@
 
   <link name="r_f_link5_4">
     <inertial>
-      <origin xyz="0.016834 -0.0025432 -2.5086E-06" rpy="0 0 0" />
-      <mass value="0.0046613" />
-      <inertia ixx="1.6049E-07" ixy="1.1313E-07" ixz="6.3774E-11" iyy="4.4164E-07" iyz="-4.7955E-11"
-        izz="4.0676E-07" />
+      <origin xyz="0.016835724193078983 -0.0025451339066119762 -2.375807710636194e-06" rpy="0 0 0" />
+      <mass value="0.004352952855182437" />
+      <inertia ixx="1.7269823605837295e-10" ixy="7.185121819458006e-11" ixz="1.0129642288770988e-13" iyy="5.47093816724279e-10" iyz="-4.58411448890324e-14" izz="5.330028980487819e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_4.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1422,7 +1377,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_4.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -1438,15 +1393,14 @@
 
   <link name="r_f_link5_4_1">
     <inertial>
-      <origin xyz="0.0097403 0.0059311 6.6288E-07" rpy="0 0 0" />
-      <mass value="0.00041733" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5925E-13" iyy="1.3281E-08"
-        iyz="-3.0604E-14" izz="3.3335E-09" />
+      <origin xyz="0.009738422454345726 0.005930029867607992 5.184464520480232e-07" rpy="0 0 0" />
+      <mass value="0.0003894330192680039" />
+      <inertia ixx="1.1761888706684739e-11" ixy="-1.9209378388774791e-13" ixz="1.186284566954947e-15" iyy="1.343212147099201e-11" iyz="1.5284533404108687e-16" izz="3.3280605709656388e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_4_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1455,7 +1409,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_4_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_4_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1469,15 +1423,14 @@
 
   <link name="r_f_link5_4_2">
     <inertial>
-      <origin xyz="-1.2449 0.28837 -0.18932" rpy="0 0 0" />
-      <mass value="0.0110157" />
-      <inertia ixx="1.1249E-08" ixy="-1.7302E-10" ixz="9.5917E-13" iyy="1.3281E-08"
-        iyz="-3.0602E-14" izz="3.3335E-09" />
+      <origin xyz="0.0154331838795733 -0.006148726613435892 1.6634833667932593e-06" rpy="0 0 0" />
+      <mass value="0.0019468121678303657" />
+      <inertia ixx="1.4302405503834417e-10" ixy="4.887309883330095e-11" ixz="-5.680610238540891e-14" iyy="3.2625743968777927e-10" iyz="7.69452862032312e-15" izz="2.866601186965895e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_4_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1486,7 +1439,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_4_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_4_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1500,15 +1453,14 @@
 
   <link name="r_f_link5_3_1">
     <inertial>
-      <origin xyz="0.012402 0.0077167 5.6717E-07" rpy="0 0 0" />
-      <mass value="0.00053481" />
-      <inertia ixx="1.5033E-08" ixy="-1.6532E-10" ixz="1.0361E-12" iyy="1.7298E-08"
-        iyz="-1.4832E-12" izz="5.0339E-09" />
+      <origin xyz="0.012402519029617032 0.007714920695189426 1.7562179048963862e-09" rpy="0 0 0" />
+      <mass value="0.0004998303821669769" />
+      <inertia ixx="1.5124255824896718e-11" ixy="-2.547965438512407e-13" ixz="1.4306529804306638e-16" iyy="1.713520438301628e-11" iyz="-1.9604862408123242e-16" izz="4.935996044554998e-12" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_3_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1517,7 +1469,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_3_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_3_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1531,15 +1483,14 @@
 
   <link name="r_f_link5_3_2">
     <inertial>
-      <origin xyz="-0.021141 -0.0029768 -2.397E-07" rpy="0 0 0" />
-      <mass value="0.0028758" />
-      <inertia ixx="2.6441E-07" ixy="6.0606E-09" ixz="-4.5584E-12" iyy="7.2083E-07"
-        iyz="-2.4063E-12" izz="6.3603E-07" />
+      <origin xyz="0.01293824819777932 -0.0049663796359724266 -5.799490468630916e-07" rpy="0 0 0" />
+      <mass value="0.0009265838824928253" />
+      <inertia ixx="5.343367914587496e-11" ixy="7.11272195391642e-13" ixz="4.75643671594095e-15" iyy="7.063684996215479e-11" iyz="-9.602248319449448e-16" izz="4.755927862545644e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_3_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1548,7 +1499,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_3_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_3_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1562,15 +1513,14 @@
 
   <link name="r_f_link5_2_1">
     <inertial>
-      <origin xyz="0.0203750811940452 0.00810553695415961 -7.52503586387565E-08" rpy="0 0 0" />
-      <mass value="0.00100007240206559" />
-      <inertia ixx="2.78442699524082E-08" ixy="2.33795174891781E-09" ixz="-1.11804201328519E-12"
-        iyy="6.77433223254672E-08" iyz="-7.1351371647718E-13" izz="4.35477110646656E-08" />
+      <origin xyz="0.020377386408241372 0.008105578472303553 -1.8358250729477754e-09" rpy="0 0 0" />
+      <mass value="0.0009340644343591205" />
+      <inertia ixx="2.720253099758908e-11" ixy="2.3188305777278406e-12" ixz="1.487247753426462e-15" iyy="6.511791793427603e-11" iyz="-3.004822934795065e-17" izz="4.166928950170181e-11" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_2_1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1579,7 +1529,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_2_1.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_2_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1593,15 +1543,14 @@
 
   <link name="r_f_link5_2_2">
     <inertial>
-      <origin xyz="0.021859 -0.0029768 -2.397E-07" rpy="0 0 0" />
-      <mass value="0.0028758" />
-      <inertia ixx="2.6441E-07" ixy="6.0606E-09" ixz="-4.5584E-12" iyy="7.2083E-07"
-        iyz="-2.4063E-12" izz="6.3603E-07" />
+      <origin xyz="0.021873800021581506 -0.0029659448659418476 3.426541867502145e-06" rpy="0 0 0" />
+      <mass value="0.002679962972544193" />
+      <inertia ixx="2.46106262933422e-10" ixy="5.789691111700786e-12" ixz="1.3825483861714585e-13" iyy="6.71303134378717e-10" iyz="6.228665402449863e-14" izz="5.922202883500982e-10" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_2_2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1610,7 +1559,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_f_link5_2_2.STL" />
+        <mesh filename="../meshes/dexhand021/r_f_link5_2_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1623,15 +1572,14 @@
   </joint>
   <link name="r_p_link1">
     <inertial>
-      <origin xyz="-0.039823 0.048335 -0.023204" rpy="0 0 0" />
-      <mass value="0.027214" />
-      <inertia ixx="3.9012E-05" ixy="-3.774E-06" ixz="-2.5155E-06" iyy="4.7325E-05"
-        iyz="-9.6884E-06" izz="1.5332E-05" />
+      <origin xyz="-0.03983372937532701 0.048318738836771104 -0.023220400917865352" rpy="0 0 0" />
+      <mass value="0.08395173603509726" />
+      <inertia ixx="3.648736072616701e-08" ixy="-3.5309381015073303e-09" ixz="-2.3605783102161306e-09" iyy="4.4254975033711677e-08" iyz="-9.066425502757339e-09" izz="1.4337820996587614e-08" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link1.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1640,7 +1588,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link1.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1654,15 +1602,14 @@
 
   <link name="r_p_link3">
     <inertial>
-      <origin xyz="-0.023178 0.0088153 0.028141" rpy="0 0 0" />
-      <mass value="0.01334" />
-      <inertia ixx="5.0294E-06" ixy="-3.0523E-06" ixz="-8.5204E-07" iyy="1.4718E-05"
-        iyz="-1.1321E-06" izz="1.1854E-05" />
+      <origin xyz="-0.023161994358886367 0.008827545164030117 0.028148918014715408" rpy="0 0 0" />
+      <mass value="0.044023395748120794" />
+      <inertia ixx="5.023584950777533e-09" ixy="-3.05300024440455e-09" ixz="-8.470489953474035e-10" iyy="1.471870436515504e-08" iyz="-1.1291068838601622e-09" izz="1.1859554978542593e-08" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link3.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link3.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1671,7 +1618,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link3.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link3.STL" />
       </geometry>
     </collision>
   </link>
@@ -1685,15 +1632,14 @@
 
   <link name="r_p_link4">
     <inertial>
-      <origin xyz="-0.029719 -0.0051697 -0.049849" rpy="0 0 0" />
-      <mass value="0.025026" />
-      <inertia ixx="1.5473E-05" ixy="-5.4959E-06" ixz="2.2207E-06" iyy="4.2532E-05"
-        iyz="-5.6871E-07" izz="3.369E-05" />
+      <origin xyz="-0.029728719311365205 -0.005167865235956345 -0.049836801625217676" rpy="0 0 0" />
+      <mass value="0.08245656201270479" />
+      <inertia ixx="1.54444087395338e-08" ixy="-5.4787402337217735e-09" ixz="2.1986089072122355e-09" iyy="4.24324555419933e-08" iyz="-5.694817674229571e-10" izz="3.360344779864822e-08" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link4.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link4.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1702,7 +1648,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link4.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link4.STL" />
       </geometry>
     </collision>
   </link>
@@ -1716,15 +1662,14 @@
 
   <link name="r_p_link5">
     <inertial>
-      <origin xyz="-0.022588 -0.0089443 -0.042667" rpy="0 0 0" />
-      <mass value="0.0068413" />
-      <inertia ixx="2.0938E-06" ixy="-1.4341E-06" ixz="7.3762E-07" iyy="8.1335E-06" iyz="-9.421E-08"
-        izz="7.2107E-06" />
+      <origin xyz="-0.02256730562958097 -0.008908175434005319 -0.04271790120102455" rpy="0 0 0" />
+      <mass value="0.022516997147359073" />
+      <inertia ixx="2.092547751524618e-09" ixy="-1.4390176502664466e-09" ixz="7.516082402310597e-10" iyy="8.133599836241913e-09" iyz="-9.022953556464517e-11" izz="7.214731328161442e-09" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link5.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link5.STL" />
       </geometry>
       <material name="">
         <color rgba="0.3 0.3 0.3 1" />
@@ -1733,7 +1678,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link5.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -1747,15 +1692,14 @@
 
   <link name="r_p_link6">
     <inertial>
-      <origin xyz="-0.035357 0.043709 -0.0049902" rpy="0 0 0" />
-      <mass value="0.036663" />
-      <inertia ixx="0.00010163" ixy="-1.7664E-05" ixz="-2.2622E-06" iyy="0.00015651"
-        iyz="-2.3073E-05" izz="7.9693E-05" />
+      <origin xyz="-0.03535057740967973 0.043677222866326595 -0.0050236994810133224" rpy="0 0 0" />
+      <mass value="0.11253371281264385" />
+      <inertia ixx="9.44598626373826e-08" ixy="-1.6398925824622036e-08" ixz="-2.0464759323204166e-09" iyy="1.4547379132523024e-07" iyz="-2.141775870879064e-08" izz="7.402784956784709e-08" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link6.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link6.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1764,7 +1708,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link6.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link6.STL" />
       </geometry>
     </collision>
   </link>
@@ -1778,15 +1722,14 @@
 
   <link name="r_p_link2">
     <inertial>
-      <origin xyz="-0.024886 0.013701 0.020171" rpy="0 0 0" />
-      <mass value="0.023927" />
-      <inertia ixx="1.507E-05" ixy="-9.1066E-06" ixz="9.6959E-08" iyy="4.702E-05" iyz="-1.5894E-06"
-        izz="3.9889E-05" />
+      <origin xyz="-0.02488575295174602 0.013706703059175068 0.02016484295334375" rpy="0 0 0" />
+      <mass value="0.07899657199227124" />
+      <inertia ixx="1.507652832707221e-08" ixy="-9.094527046683921e-09" ixz="1.0836822261290767e-10" iyy="4.701759476226564e-08" iyz="-1.5944191236254352e-09" izz="3.98800067297972e-08" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link2.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.9 0.9 0.9 1" />
@@ -1795,7 +1738,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_p_link2.STL" />
+        <mesh filename="../meshes/dexhand021/r_p_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1807,7 +1750,7 @@
     <axis xyz="0 0 0" />
   </joint>
 
-  <!-- Right Hand Fingertips -->
+
   <link name="r_f_link1_tip">
     <inertial>
       <origin xyz="0 0 0.005" rpy="0 0 0" />
