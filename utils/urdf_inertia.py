@@ -49,7 +49,7 @@ def calculate_mesh_inertia(mesh_path: str, density: float) -> tuple:
     volume = mesh.volume
     mass = volume * density
     center_of_mass = mesh.center_mass
-    inertia = mesh.moment_inertia
+    inertia = density * mesh.moment_inertia
 
     return mass, inertia, center_of_mass
 
