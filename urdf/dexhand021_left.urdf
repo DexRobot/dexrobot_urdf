@@ -58,7 +58,7 @@
     </collision>
   </link>
 
-  <joint name="l_a_joint1_1" type="revolute">
+  <joint name="l_f_joint1_1" type="revolute">
     <origin xyz="-0.023855 -0.031204 0.27607" rpy="0 -0.15197 -2.8876" />
     <parent link="l_p_link0" />
     <child link="l_f_link1_1" />
