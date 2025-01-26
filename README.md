@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README_zh.md)
+
 # DexRobot URDF Models
 
 This repository contains URDF models for a dexterous robotic hand system, including both left and right hand configurations. The models are compatible with standard URDF toolchains and have been tested with MuJoCo.
