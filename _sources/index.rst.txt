@@ -1,5 +1,5 @@
-Welcome to DexRobot URDF Models's documentation!
-=================================================
+DexRobot URDF Models
+====================
 
 This repository contains URDF models for a dexterous robotic hand
 system, including both left and right hand configurations. The models
