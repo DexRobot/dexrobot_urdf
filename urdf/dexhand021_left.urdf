@@ -1986,7 +1986,7 @@
       <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -1995,7 +1995,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2003,7 +2003,7 @@
   </link>
 
   <joint name="l_f_joint1_pad" type="fixed">
-    <origin xyz="0.026 0.0025 0.001" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.001" rpy="0 0 -0.45" />
     <parent link="l_f_link1_4" />
     <child link="l_f_link1_pad" />
   </joint>
@@ -2015,7 +2015,7 @@
       <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2024,7 +2024,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2032,7 +2032,7 @@
   </link>
 
   <joint name="l_f_joint2_pad" type="fixed">
-    <origin xyz="0.026 0.0025 0.000" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="l_f_link2_4" />
     <child link="l_f_link2_pad" />
   </joint>
@@ -2044,7 +2044,7 @@
       <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2053,7 +2053,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2061,7 +2061,7 @@
   </link>
 
   <joint name="l_f_joint3_pad" type="fixed">
-    <origin xyz="0.026 0.0025 0.000" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="l_f_link3_4" />
     <child link="l_f_link3_pad" />
   </joint>
@@ -2073,7 +2073,7 @@
       <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2082,7 +2082,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2090,7 +2090,7 @@
   </link>
 
   <joint name="l_f_joint4_pad" type="fixed">
-    <origin xyz="0.026 0.0025 0.000" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="l_f_link4_4" />
     <child link="l_f_link4_pad" />
   </joint>
@@ -2102,7 +2102,7 @@
       <inertia ixx="1.0E-09" ixy="0.0" ixz="0.0" iyy="1.0E-09" iyz="0.0" izz="1.0E-09" />
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2111,7 +2111,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 -0.45" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <box size="0.012 0.001 0.006" />
       </geometry>
@@ -2119,7 +2119,7 @@
   </link>
 
   <joint name="l_f_joint5_pad" type="fixed">
-    <origin xyz="0.026 0.0025 0.000" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="l_f_link5_4" />
     <child link="l_f_link5_pad" />
   </joint>
