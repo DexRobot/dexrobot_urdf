@@ -13,7 +13,7 @@ MuJoCo.
 Quickstart
 ----------
 
-The URDF models can be visualized using MuJoCo’s ``simulate`` tool:
+The URDF models can be visualized using MuJoCo's ``simulate`` tool:
 
 .. code:: bash
 
@@ -23,8 +23,8 @@ The URDF models can be visualized using MuJoCo’s ``simulate`` tool:
    # For right hand
    simulate urdf/dexhand021_right.urdf
 
-Note: After launching the simulator, hit the ‘Pause’ button first, then
-‘Reset’ to properly visualize the model in its initial configuration.
+Note: After launching the simulator, hit the 'Pause' button first, then
+'Reset' to properly visualize the model in its initial configuration.
 
 Models
 ------
@@ -48,14 +48,14 @@ Model Conventions
 -----------------
 
 Naming Convention
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 The model follows a systematic naming convention for links and joints:
 
 -  Base Format: ``[lr]_[type]_[component]``
 
-   -  ``[lr]``: ‘l’ for left hand, ‘r’ for right hand
-   -  ``[type]``: ‘p’ for palm components, ‘f’ for finger components
+   -  ``[lr]``: 'l' for left hand, 'r' for right hand
+   -  ``[type]``: 'p' for palm components, 'f' for finger components
    -  ``[component]``: specific component identifier
 
 Component Numbering
@@ -84,6 +84,16 @@ Base Frame
 -  Z-axis: Points toward fingertips
 -  Thumb Orientation: Inclines toward negative X-axis for both hands
 
+Fingertips and Fingerpads
+-------------------------
+
+Each finger includes specialized marker links that serve important roles in control and learning:
+
+-  **Fingertips**: Small spherical elements at the end of each finger, colored red for easy identification
+-  **Fingerpads**: Thin rectangular pads on the inner surface of the fingertips, colored green
+   
+These specialized links are primarily used for kinematics resolution and reinforcement learning policies, providing consistent reference points for motion planning and task execution. They are visualization aids and policy targets rather than physical elements that affect the simulation physics.
+
 Additional Resources
 --------------------
 
@@ -98,7 +108,7 @@ Notes for Users
    ``../meshes/``
 -  The models are compatible with major robotics simulation environments
    that support URDF
--  While the URDF models don’t enforce joint coupling, users can
+-  While the URDF models don't enforce joint coupling, users can
    implement this in their control software
 -  The utility scripts can be modified as needed to accommodate specific
    requirements

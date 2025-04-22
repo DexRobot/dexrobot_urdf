@@ -807,7 +807,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
       <material name="">
         <color rgba="0 1 0 1" />
@@ -816,13 +816,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
     </collision>
   </link>
 
   <joint name="r_f_joint1_pad" type="fixed">
-    <origin xyz="0.026 0.003 0" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 -0.001" rpy="0 0 -0.45" />
     <parent link="r_f_link1_4" />
     <child link="r_f_link1_pad" />
   </joint>
@@ -836,7 +836,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
       <material name="">
         <color rgba="0 1 0 1" />
@@ -845,13 +845,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
     </collision>
   </link>
 
   <joint name="r_f_joint2_pad" type="fixed">
-    <origin xyz="0.026 0.003 0" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="r_f_link2_4" />
     <child link="r_f_link2_pad" />
   </joint>
@@ -865,7 +865,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
       <material name="">
         <color rgba="0 1 0 1" />
@@ -874,13 +874,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
     </collision>
   </link>
 
   <joint name="r_f_joint3_pad" type="fixed">
-    <origin xyz="0.026 0.003 0" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="r_f_link3_4" />
     <child link="r_f_link3_pad" />
   </joint>
@@ -894,7 +894,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
       <material name="">
         <color rgba="0 1 0 1" />
@@ -903,13 +903,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
     </collision>
   </link>
 
   <joint name="r_f_joint4_pad" type="fixed">
-    <origin xyz="0.026 0.003 0" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="r_f_link4_4" />
     <child link="r_f_link4_pad" />
   </joint>
@@ -923,7 +923,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
       <material name="">
         <color rgba="0 1 0 1" />
@@ -932,13 +932,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.002" />
+        <box size="0.012 0.001 0.006" />
       </geometry>
     </collision>
   </link>
 
   <joint name="r_f_joint5_pad" type="fixed">
-    <origin xyz="0.026 0.003 0" rpy="0 0 0" />
+    <origin xyz="0.026 0.0025 0.000" rpy="0 0 -0.45" />
     <parent link="r_f_link5_4" />
     <child link="r_f_link5_pad" />
   </joint>

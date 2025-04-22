@@ -57,6 +57,15 @@ The model primarily follows the Denavit-Hartenberg (DH) convention for frame ass
 - Z-axis: Points toward fingertips
 - Thumb Orientation: Inclines toward negative X-axis for both hands
 
+### Fingertips and Fingerpads
+
+Each finger includes specialized marker links that serve important roles in control and learning:
+
+- **Fingertips**: Small spherical elements at the end of each finger, colored red for easy identification
+- **Fingerpads**: Thin rectangular pads on the inner surface of the fingertips, colored green
+   
+These specialized links are primarily used for kinematics resolution and reinforcement learning policies, providing consistent reference points for motion planning and task execution. They are visualization aids and policy targets rather than physical elements that affect the simulation physics.
+
 ## Additional Resources
 
 The repository includes utility scripts in the utils/ directory for URDF file processing and analysis. These tools can help with tasks such as updating mesh paths and analyzing model properties.
